@@ -8,12 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Pizza Hut</title>
+    <title>Movie List</title>
     <style>
         body{
           margin: 0;
           padding: 0;
-          background-color: #75bec4;
+          background-color: #fba92e;
         }
 
         .card{
@@ -42,24 +42,11 @@
     <ul class="navbar-nav mr-auto">
 
       <li class="nav-item active">
-        <a class="nav-link text-white" href="#">Pizza Hut <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-white" href="#">Movie List<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white" href="#">All Menu</a>
+        <a class="nav-link text-white" href="#" onclick="defaultMovie()">Beranda</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link text-white" href="#">Pizza</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-white" href="#">Drinks</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-white" href="#">Dessert</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-white" href="#">Rice</a>
-      </li>
-      
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -73,13 +60,13 @@
   <div class="row mt-3 justify-content-center">
    
     <div class="col-md-8">
-        <h1 class="text-center text-white">All Menu</h1>
+        <h1 class="text-center text-white">Daftar Film</h1>
         
         <div class="input-group mb-3">
-          <input type="text" id="search-input" class="form-control" placeholder="Cari judul..." aria-label="Recipient's username" aria-describedby="button-addon2">
+          <input type="text" id="search-input" class="form-control" placeholder="Cari judul film sekarang juga!!" aria-label="Recipient's username" aria-describedby="button-addon2">
           
           <div class="input-group-append">
-            <button class="btn btn-outline-light" type="button" id="search-button">Cari!</button>
+            <button class="btn btn-outline-light" type="button" id="search-button">Lihat Hasil</button>
           </div>
         </div>
 
