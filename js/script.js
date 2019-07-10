@@ -77,7 +77,7 @@ function defaultMovie(){
 function searchMovie(){
     
     $.ajax({
-        url: 'http://omdbapi.com',
+        url: 'https://omdbapi.com',
         type: 'GET',
         dataType: 'json',
         data: {
