@@ -1,7 +1,7 @@
 function modalMovie(){
      $(".modal-try").click(function(){
                         $.ajax({
-                            url: 'http://omdbapi.com',
+                            url: 'https://omdbapi.com',
                             type: 'GET',
                             dataType: 'json',
                             data: {
@@ -36,7 +36,7 @@ function modalMovie(){
 
 function defaultMovie(){
     $.ajax({
-        url:'http://omdbapi.com',
+        url:'https://omdbapi.com',
         type:'GET',
         dataType:'json',
         data:{
