@@ -96,7 +96,7 @@ function searchMovie(){
                                     <img src="`+ data.Poster +`" class="card-img-top" alt="..." width="50" height="auto">
                                     <div class="card-body">
                                     <h5 class="card-title">`+data.Title+`</h5>
-                                    <p class="card-text"></p>
+                                    <p class="card-text">Genre `+data.Genre+`</p>
                                     <a href="" class="btn btn-primary modal-try" data-toggle="modal" data-id="`+data.imdbID+`">Order Ini!</a>
                                     </div> 
                                 </div>
